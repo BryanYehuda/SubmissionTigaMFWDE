@@ -1,0 +1,44 @@
+{
+    "name": "restaurantcatalogue",
+    "version": "1.0.0",
+    "description": "Ini adalah repository untuk menyimpan kode yang akan digunakan dalam submission dua dalam kelas \"Menjadi Front-End Web Developer Expert\" dari Dicoding",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "webpack-dev-server --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js",
+        "lint": "eslint ./",
+        "lint-fix": "eslint --fix ./"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BryanYehuda/SubmissionDuaMFWDE.git"
+    },
+    "author": "Bryan Yehuda Mannuel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BryanYehuda/SubmissionDuaMFWDE/issues"
+    },
+    "homepage": "https://github.com/BryanYehuda/SubmissionDuaMFWDE#readme",
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^6.4.1",
+        "eslint": "^7.29.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.23.4",
+        "html-webpack-plugin": "^4.5.2",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2",
+        "webpack-merge": "^5.8.0"
+    },
+    "dependencies": {
+        "css-loader": "^3.6.0",
+        "idb": "^6.1.2",
+        "regenerator-runtime": "^0.13.7",
+        "serviceworker-webpack-plugin": "^1.0.1",
+        "style-loader": "^1.2.1"
+    }
+}

@@ -1,0 +1,330 @@
+.content {
+    display: grid;
+    grid-row-gap: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    .content-rating {
+        margin-left: 10px;
+    }
+    .content-location {
+        margin-left: 10px;
+    }
+    .content-title {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .content-rating {
+        margin-left: 10px;
+    }
+    .content-location {
+        margin-left: 10px;
+    }
+    .content-title {
+        margin-left: 10px;
+    }
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 300px;
+        position: absolute;
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+        text-align: left;
+    }
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .nav-link {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    nav a {
+        color: black;
+    }
+    .wrapper {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .content-rating {
+        margin-left: 10px;
+    }
+    .content-location {
+        margin-left: 10px;
+    }
+    .content-title {
+        margin-left: 10px;
+    }
+    .off-canvas {
+        display: none;
+    }
+    nav a {
+        font-size: 18px;
+    }
+    .wrapper {
+        margin-right: 20px;
+        margin-left: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .content-rating {
+        font-size: 22px;
+    }
+    .content-location {
+        font-size: 22px;
+    }
+    .content-rating-detail {
+        font-size: 22px;
+    }
+    .content-location-detail {
+        font-size: 22px;
+    }
+    .content-address-detail {
+        font-size: 22px;
+    }
+    .content-category-detail {
+        font-size: 22px;
+    }
+    .content-title {
+        font-size: 27px;
+    }
+    .content-title-detail {
+        font-size: 35px;
+    }
+    .content-description {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #drawer {
+        position: relative;
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .content-rating {
+        margin-left: -10px;
+    }
+    .content-location {
+        margin-left: -10px;
+    }
+    .content-paragraph {
+        padding: 16px 32px 32px 32px;
+    }
+    .content-title {
+        font-size: 28px;
+        margin-left: -10px;
+    }
+    .content-title-detail {
+        font-size: 45px;
+    }
+    .content-description {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 16px;
+    }
+    .btn-ghost:link,
+    .btn-ghost:visited {
+        margin-top: 0;
+    }
+    h1 {
+        font-size: 39px;
+    }
+    h2 {
+        font-size: 33px;
+    }
+    h3 {
+        font-size: 27px;
+    }
+    .content-rating {
+        font-size: 17px;
+    }
+    .content-location {
+        font-size: 17px;
+    }
+    .content-rating-detail {
+        font-size: 23px;
+    }
+    .content-location-detail {
+        font-size: 23px;
+    }
+    .content-address-detail {
+        font-size: 23px;
+    }
+    .content-category-detail {
+        font-size: 23px;
+    }
+    .content-title {
+        font-size: 25px;
+    }
+    .content-title-detail {
+        font-size: 50px;
+    }
+    .content-description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .wrapper {
+        grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    }
+    .content-rating {
+        font-size: 19px;
+    }
+    .content-location {
+        font-size: 19px;
+    }
+    .content-rating-detail {
+        font-size: 24px;
+    }
+    .content-location-detail {
+        font-size: 24px;
+    }
+    .content-address-detail {
+        font-size: 24px;
+    }
+    .content-category-detail {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    .content-rating {
+        font-size: 16px;
+    }
+    .content-location {
+        display: block;
+        font-size: 16px;
+    }
+    .content-rating-detail {
+        font-size: 26px;
+    }
+    .content-location-detail {
+        font-size: 26px;
+    }
+    .content-address-detail {
+        font-size: 26px;
+    }
+    .content-category-detail {
+        font-size: 26px;
+    }
+    .content-title {
+        font-size: 24px;
+    }
+    .content-description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .wrapper {
+        grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    }
+    .content-rating {
+        font-size: 18px;
+    }
+    .content-location {
+        display: block;
+        font-size: 18px;
+    }
+    .content-rating-detail {
+        font-size: 28px;
+    }
+    .content-location-detail {
+        display: block;
+        font-size: 28px;
+    }
+    .content-address-detail {
+        display: block;
+        font-size: 28px;
+    }
+    .content-category-detail {
+        display: block;
+        font-size: 28px;
+    }
+    .content-title {
+        font-size: 26px;
+    }
+    .content-description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        grid-template-columns: 1fr 6fr 1fr 1fr 1fr;
+    }
+    .content-rating {
+        font-size: 20px;
+    }
+    .content-location {
+        font-size: 20px;
+    }
+    .content-rating-detail {
+        font-size: 29px;
+    }
+    .content-location-detail {
+        font-size: 29px;
+    }
+    .content-address-detail {
+        font-size: 29px;
+    }
+    .content-category-detail {
+        font-size: 29px;
+    }
+    .content-title {
+        font-size: 26px;
+    }
+    .content-description {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .wrapper {
+        grid-template-columns: 1fr 12fr 2fr 2fr 2fr;
+    }
+}
