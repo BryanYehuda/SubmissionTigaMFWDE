@@ -34,6 +34,7 @@
         "imagemin-webpack-plugin": "^2.4.2",
         "sharp": "^0.28.3",
         "webpack": "^4.46.0",
+        "webpack-bundle-analyzer": "^4.4.2",
         "webpack-cli": "^3.3.12",
         "webpack-dev-server": "^3.11.2",
         "webpack-merge": "^5.8.0",
@@ -42,6 +43,7 @@
     "dependencies": {
         "css-loader": "^3.6.0",
         "idb": "^6.1.2",
+        "lazysizes": "^5.3.2",
         "regenerator-runtime": "^0.13.7",
         "serviceworker-webpack-plugin": "^1.0.1",
         "style-loader": "^1.2.1"
