@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
+const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
+const ImageminMozjpeg = require('imagemin-mozjpeg');
 const path = require('path');
 
 module.exports = {
@@ -39,7 +41,7 @@ module.exports = {
       theme_color: '#D83A56',
       crossorigin: 'use-credentials',
       icons: [{
-        src: path.resolve('src/public/logo/logo.png'),
+        src: path.resolve('src/public/images/logo/logo.png'),
         sizes: [96, 128, 192, 256, 384, 512],
         purpose: 'maskable',
       }],
@@ -48,7 +50,18 @@ module.exports = {
       patterns: [{
         from: path.resolve(__dirname, 'src/public/'),
         to: path.resolve(__dirname, 'dist/'),
+        globOptions: {
+          ignore: ['src/public/images/heros/**/*', 'src/public/images/color/**/*'],
+        },
       }],
+    }),
+    new ImageminWebpackPlugin({
+      plugins: [
+        ImageminMozjpeg({
+          quality: 50,
+          progressive: true,
+        }),
+      ],
     }),
     new ServiceWorkerWebpackPlugin({
       entry: path.resolve(__dirname, 'src/scripts/sw.js'),

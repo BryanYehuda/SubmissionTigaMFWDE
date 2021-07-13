@@ -7,7 +7,7 @@ BASE CONFIGURATION
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/heros/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/heros/hero.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
