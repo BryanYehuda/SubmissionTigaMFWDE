@@ -27,7 +27,7 @@ const createRestaurantDetailTemplate = (restaurants) => `
 `;
 
 const createRestaurantItemTemplate = (restaurants) => `
-<article class="content-item ${restaurants.Id}">
+<div class="content-item">
   <img class="content-thumbnail lazyload" data-src="" src="${CONFIG.BASE_IMAGE_URL + restaurants.pictureId}" alt="${restaurants.name}">
   <div class="content-paragraph">
     <p>
@@ -36,7 +36,7 @@ const createRestaurantItemTemplate = (restaurants) => `
       <div class="content-title">Nama : ${restaurants.name}</div>
     </p>
   <div class="content-title"><a class="btn btn-detail-full" href="${`/#/detail/${restaurants.id}`}">More Info</a></div>
-</article>
+</div>
   `;
 
 const createLikeButtonTemplate = () => `
