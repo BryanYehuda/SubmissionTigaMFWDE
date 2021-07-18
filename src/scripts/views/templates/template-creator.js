@@ -28,7 +28,7 @@ const createRestaurantDetailTemplate = (restaurants) => `
 
 const createRestaurantItemTemplate = (restaurants) => `
 <div class="content-item">
-  <img class="content-thumbnail lazyload" data-src="" src="${CONFIG.BASE_IMAGE_URL + restaurants.pictureId}" alt="${restaurants.name}">
+  <img class="content-thumbnail lazyload" data-src="${CONFIG.BASE_IMAGE_URL + restaurants.pictureId}" alt="${restaurants.name}">
   <div class="content-paragraph">
     <p>
       <div class="content-rating">Rating : ${restaurants.rating}</div>
