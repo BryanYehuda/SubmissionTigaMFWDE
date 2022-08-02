@@ -81,7 +81,7 @@ This license allows the user to make any changes to the program code. This licen
 Yang diharuskan Dicoding untuk lulus submisi pertama ini
 **Hasil submisi ini mendapatkan bintang 3 dari 5 bintang**    
 
-Hasil pengerjaan dari website bis dilihat pada [Instagram Reel](https://www.instagram.com/reel/CgrwUjLI4eh/)
+Hasil pengerjaan dari website bisa dilihat pada [Instagram Reel](https://www.instagram.com/reel/CgrwUjLI4eh/)
 
 Repository ini memiliki **Lisensi MIT.**      
 Lisensi ini membolehkan pengguna untuk melakukan perubahan apapun pada kode program. Lisensi ini hanya mewajibkan pengguna untuk menyertakan lisensi dan copyright pembuat pada kode yang didistribusikan ulang dan tidak ada larangan untuk menggunakan trademark dari pembuat asli. Selain itu pengguna juga tidak berhak untuk menuntut pembuat ketika terjadi kerusakan pada perangkat lunak tersebut.
